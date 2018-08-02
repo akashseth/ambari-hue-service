@@ -58,8 +58,8 @@ def download_hue():
   Execute('tar -zxvf hue.tgz -C {0} && rm -f hue.tgz'.format(params.hue_install_dir))
   
   #cwd = os.getcwd()
-  #os.chdir('/usr/local/hue-4.2.0')
-  #os.system('make install')
+  os.chdir('/usr/local/hue-4.2.0')
+  os.system('make install')
   #os.chdir(cwd)
 
   # Ensure all Hue files owned by hue
