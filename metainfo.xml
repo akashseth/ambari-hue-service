@@ -92,6 +92,7 @@
 	      <package><name>python2.7-dev</name></package>
 	      <package><name>libldap2-dev</name></package>
 	      <package><name>python-pip</name></package>
+	      <package><name>libmysqlclient-dev</name></package>
         </packages>
 	  </osSpecific>
 	</osSpecifics>
